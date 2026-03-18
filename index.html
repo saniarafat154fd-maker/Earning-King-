@@ -1090,7 +1090,7 @@
         // Send withdrawal request to admin via Telegram bot
         function sendWithdrawRequestToAdmin(message) {
             // Telegram API URL তৈরি করুন
-            const apiUrl = `https://core.telegram.org/bots/api${8648487036:AAENU1bUB5qTy96T047gfU538hmWUMgrhHg}/sendMessage?chat_id=${5704131319}&text=${encodeURIComponent(message)}`;
+            const apiUrl = `https://core.telegram.org/bots/api${}/sendMessage?chat_id=${5704131319}&text=${encodeURIComponent(message)}`;
             
             fetch(apiUrl)
                 .then(response => response.json())
